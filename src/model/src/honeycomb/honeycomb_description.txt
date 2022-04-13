@@ -1,0 +1,12 @@
+Honeycomb Compass
+
+A bee researcher discovered how to improve honey production by guiding bees in a honeycomb to certain cells, in such a way that arranging a group of bees in a very specific layout, their production as a team is greatly improved.
+
+The honeycomb is an N by N rectangular shape. The location of a bee in the honeycomb is identified by x and y coordinates of the cell, and the orientation (that is, the cardinal point where the bee is pointing at: North, South, East and West). Bees move from one cell to the other one in single step movements and can rotate left/right within a cell.
+
+The initial position for such a design is 0,0,N, which identifies a bee located in the bottom left corner and facing North. The cell directly to the North from x, y is x,y+1.
+
+In order to guide a bee to its final location, the researcher designed a bio-interface to trigger the following actions:
+
+Spin 90 degrees left or right, without moving from its current spot: in this case, the bio-interface accepts commands L and R, for left and right rotation respectively
+Move forward one cell in the honeycomb, maintain the same heading: in this case, the bio-interface accepts command M

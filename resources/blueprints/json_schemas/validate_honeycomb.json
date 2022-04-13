@@ -1,0 +1,18 @@
+{
+    "size": 5,
+    "bees": [
+        {
+            "x": 1,
+            "y": 2,
+            "orientation": "N",
+            "moves": "LMLMLMLMM"
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "orientation": "E",
+            "moves": "MMRMMRMRRM"
+        }
+    ]
+}
+

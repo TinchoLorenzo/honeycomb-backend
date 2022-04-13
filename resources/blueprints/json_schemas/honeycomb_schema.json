@@ -1,0 +1,15 @@
+{
+    "$id": "honeycomb.honeycomb.schema.json",
+    "type": "object",
+    "properties": {
+        "size": {"type": "number"},
+        "bees": {
+            "type":  "array",
+            "items": {
+                "$ref": "honeycomb.bee.schema.json"
+            }
+        }
+    },
+    "required": ["size"]
+}
+

@@ -1,0 +1,11 @@
+{
+    "$id": "honeycomb.bee.schema.json",
+    "type" : "object",
+    "properties" : {
+        "x" : {"type" : "number"},
+        "y" : {"type" : "number"},
+        "orientation" : {"type" : "string"},
+        "moves" : {"type" : "string"}
+    },
+  "required": ["x", "y", "orientation", "moves"]
+}
