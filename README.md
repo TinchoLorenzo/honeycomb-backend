@@ -90,6 +90,11 @@ python3 wsgi.py
 ```
 The Rest API should start running on port 5000
 
+In case you would like to run the unit tests, just run:
+ ```sh
+pytest
+```
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - )
 
    [pip]: <https://pypi.org/project/pip/>
