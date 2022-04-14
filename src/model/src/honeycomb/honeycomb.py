@@ -7,6 +7,11 @@ import uuid
 
 
 class HoneyComb:
+    """
+    Honeycomb class to model how the bees are positioned inside it. The bee position could be different from its position
+    inside the honeycomb, since the honeycomb is the one that controls its size. The moves of the honeycomb can be iterated
+    one by one, or can be requested all at once.
+    """
 
     def __init__(self, bees: [Bee] = [], last_coordinate: int = 0) -> None:
         super().__init__()

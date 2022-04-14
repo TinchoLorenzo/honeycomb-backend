@@ -3,7 +3,8 @@ import uuid
 
 class Bee:
     """
-    Class bee to manage the position and moves inside the Honeycomb
+    Class bee to manage the position and moves inside the Honeycomb. This contains the logic to move forward and rotate
+    inside a honeycomb by a bee.
     """
 
     __valid_moves = ['L', 'R', 'M']
